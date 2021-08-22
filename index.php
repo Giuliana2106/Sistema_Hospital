@@ -1,20 +1,20 @@
 <?php
 include('Autoload.php');
 
-if (isset($_GET['class'])&& isset($_GET['method']))
+if (isset($_GET['controller'])&& isset($_GET['method']))
 {
-    $class=$_GET['class'];
+    $controller=$_GET['controller'];
     $method=$_GET['method'];
 }
 else
 {
-    $class="Home";
+    $controller="Home";
     $method="Inicio";
 }
-if(class_exists($class) && method_exists($class, $method))
+if(class_exists($class) && method_exists($controller, $method))
 {
-    $c = new $class();
-    $c->$method();
+    $class = new $controller();
+    $class->$method();
 }
 else
 {
