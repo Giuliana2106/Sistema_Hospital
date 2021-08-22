@@ -11,9 +11,13 @@ else
     $class="Home";
     $method="Inicio";
 }
-if(class_exists($class) $$ method_exists($class, $method))
+if(class_exists($class) && method_exists($class, $method))
 {
     $c = new $class();
     $c->$method();
+}
+else
+{
+    echo "clase no existe o el metodo es incorrecto";
 }
 ?>
