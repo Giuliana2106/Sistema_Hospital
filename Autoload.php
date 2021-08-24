@@ -1,6 +1,6 @@
 <?php
 
-function CargadorClase($class)
+function Autoload($class)
 {
     if (is_file('Controller/'.$class.'.Controller.php'))
     {
@@ -15,4 +15,6 @@ function CargadorClase($class)
         include('Framework/Smarty/'.$class.'.class.php');
     }
 }
+
+spl_autoload_register('Autoload');
 ?>

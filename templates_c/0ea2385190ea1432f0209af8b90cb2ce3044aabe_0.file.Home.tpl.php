@@ -1,4 +1,30 @@
-{include file="Templates/Cabeceras/Header.tpl"}
+<?php
+/* Smarty version 3.1.39, created on 2021-08-23 20:17:10
+  from 'C:\xampp\htdocs\Sistema_Hospital\templates\Home.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.39',
+  'unifunc' => 'content_6123e6265ada87_66950486',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '0ea2385190ea1432f0209af8b90cb2ce3044aabe' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\Sistema_Hospital\\templates\\Home.tpl',
+      1 => 1629742626,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+    'file:Templates/Cabeceras/Header.tpl' => 1,
+    'file:Templates/Cabeceras/Footer.tpl' => 1,
+  ),
+),false)) {
+function content_6123e6265ada87_66950486 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_subTemplateRender("file:Templates/Cabeceras/Header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>
 
 <div class="navbar-fixed">
       <nav>
@@ -78,4 +104,6 @@
 </footer>
 </div> 
 
-{include file="Templates/Cabeceras/Footer.tpl"}
+<?php $_smarty_tpl->_subTemplateRender("file:Templates/Cabeceras/Footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+}
+}
