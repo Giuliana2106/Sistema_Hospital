@@ -1,3 +1,3 @@
-{include file="Templates/Cabeceras/Header.tpl"}
+{include file="templates/Cabeceras/Header.tpl"}
 
-{include file="Templates/Cabeceras/Footer.tpl"} 
+{include file="templates/Cabeceras/Footer.tpl"} 

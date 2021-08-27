@@ -1,4 +1,4 @@
-{include file="Templates/Cabeceras/Header.tpl"}
+{include file="templates/Cabeceras/Header.tpl"}
 
 <div class="navbar-fixed">
       <nav>
@@ -78,4 +78,4 @@
 </footer>
 </div> 
 
-{include file="Templates/Cabeceras/Footer.tpl"} 
+{include file="templates/Cabeceras/Footer.tpl"} 

@@ -1,4 +1,4 @@
-{include file="Templates/Cabeceras/Header.tpl"}
+{include file="templates/Cabeceras/Header.tpl"}
     <div class="row">
     <div class="navbar-fixed">
       <nav>
@@ -26,4 +26,4 @@
         {/if}
         </div>
     </div>
-{include file="Templates/Cabeceras/Footer.tpl"} 
+{include file="templates/Cabeceras/Footer.tpl"} 
