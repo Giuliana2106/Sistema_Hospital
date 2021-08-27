@@ -1,10 +1,12 @@
 <?php
     class User
     {
+        public $smarty;
         public $usuario;
         public function __construct()
         {
             $this->usuario=new Usuario();
+            $this->smarty=new Smarty();
         }
 
         public function BuscarUsuario()
@@ -31,7 +33,8 @@
                 }
                 else if ($arr[0]['Rol_idRol']==3)
                 {
-                    echo "Paciente";
+                    $this->smarty->assign('title','Paciente');
+                    $this->smarty->display('Paciente.tpl');
                 }
                 else
                 {
