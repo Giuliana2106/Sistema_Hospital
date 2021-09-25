@@ -12,22 +12,17 @@
 <div class="row">
 
     <div class="col s8">
-        <form method="post" action="?class=Inventario$method=IngresoInventario">
+        <form method="post" action="?controller=Paciente&method=RegistroPaciente">
+
             <div class="input-field col s8">
-             <input id="nombre" type="text" name="nombre"/>
-             <label for="nombre">Nombre del paciente</label>
+            <input id="edad" type="number" name="edad"/>
+            <label for="edad">Edad</label>
             </div>
 
             <div class="input-field col s8">
             <input id="nombre" type="text" name="Consulta"/>
             <label for="nombre">Consulta</label>
            </div>
-
-
-            <div class="input-field col s8">
-                 <input id="edad" type="number" name="edad"/>
-                 <label for="edad">Edad</label>
-            </div>
 
             <div class="input-field col s8">
             <input id="cantidad" type="number" name="DPI"/>

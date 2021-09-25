@@ -1,29 +1,29 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-08-26 02:54:05
+/* Smarty version 3.1.39, created on 2021-09-21 22:35:15
   from 'C:\xampp\htdocs\Sistema_Hospital\templates\Home.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6126e62d972452_07807932',
+  'unifunc' => 'content_614a420375c0c3_40767567',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0ea2385190ea1432f0209af8b90cb2ce3044aabe' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Sistema_Hospital\\templates\\Home.tpl',
-      1 => 1629939192,
+      1 => 1632157876,
       2 => 'file',
     ),
   ),
   'includes' => 
   array (
-    'file:Templates/Cabeceras/Header.tpl' => 1,
-    'file:Templates/Cabeceras/Footer.tpl' => 1,
+    'file:templates/Cabeceras/Header.tpl' => 1,
+    'file:templates/Cabeceras/Footer.tpl' => 1,
   ),
 ),false)) {
-function content_6126e62d972452_07807932 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->_subTemplateRender("file:Templates/Cabeceras/Header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+function content_614a420375c0c3_40767567 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_subTemplateRender("file:templates/Cabeceras/Header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
 <div class="navbar-fixed">
@@ -59,7 +59,7 @@ $_smarty_tpl->_subTemplateRender("file:Templates/Cabeceras/Header.tpl", $_smarty
             <div class="row">
                 <div class="input-field col s6">
                 <input name="nombre" id="first_name2" type="text" class="validate">
-                <label class="active" for="first_name2">Nombre</label>
+                <label class="active" for="first_name2">Usuario</label>
                 </div>
 
                 <div class="input-field col s6">
@@ -104,7 +104,7 @@ $_smarty_tpl->_subTemplateRender("file:Templates/Cabeceras/Header.tpl", $_smarty
 </footer>
 </div> 
 
-<?php $_smarty_tpl->_subTemplateRender("file:Templates/Cabeceras/Footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+<?php $_smarty_tpl->_subTemplateRender("file:templates/Cabeceras/Footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?> 
 <?php }
 }

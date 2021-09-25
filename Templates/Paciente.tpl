@@ -9,7 +9,7 @@
       </div>
       <br></br>
         <div class="col s5">
-        {include file="Navs/Nav.tpl"}
+        {include file="Navs/Navpac.tpl"}
         </div>
 
         <div class="col 1">

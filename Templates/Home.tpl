@@ -33,7 +33,7 @@
             <div class="row">
                 <div class="input-field col s6">
                 <input name="nombre" id="first_name2" type="text" class="validate">
-                <label class="active" for="first_name2">Nombre</label>
+                <label class="active" for="first_name2">Usuario</label>
                 </div>
 
                 <div class="input-field col s6">

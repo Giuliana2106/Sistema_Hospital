@@ -11,7 +11,7 @@
             parent::__construct($servidor,$user,$pass,$BaseDatos);
             $this->query("SET NAMES 'utf8';");
             $this->connect_errno ? die('Error en la conexion'): $error='</br>Conectado '.$BaseDatos;
-            echo $error;
+            //echo $error;
             unset($error);
         }
     }

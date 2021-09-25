@@ -25,16 +25,30 @@
                 }
                 if ($arr[0]['Rol_idRol']==1)
                 {
-                    echo "Doctor";
+                    $this->smarty->assign('title','Doctor');
+                    $this->smarty->display('Cardiologo.tpl');
                 }
                 else if ($arr[0]['Rol_idRol']==2)
                 {
-                   echo "Secretaria";
+                    $this->smarty->assign('nav', 'Secretaria');
+                    $this->smarty->assign('title','Secretaria');
+                    $this->smarty->display('Secretaria.tpl');
                 }
                 else if ($arr[0]['Rol_idRol']==3)
                 {
+                    $this->smarty->assign('nav', 'Paciente');
                     $this->smarty->assign('title','Paciente');
                     $this->smarty->display('Paciente.tpl');
+                }
+                else if ($arr[0]['Rol_idRol']==4)
+                {
+                    $this->smarty->assign('title','Doctor');
+                    $this->smarty->display('Nutricionista.tpl');
+                }
+                else if ($arr[0]['Rol_idRol']==5)
+                {
+                    $this->smarty->assign('title','Doctor');
+                    $this->smarty->display('Pediatra.tpl');
                 }
                 else
                 {

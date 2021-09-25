@@ -10,7 +10,7 @@
 
         public function BuscarUsuario($user,$pass)
         {
-            $query="SELECT * FROM `usuario` WHERE `Nombre`='$user' AND `Pass`='$pass';";
+            $query="SELECT * FROM `usuario` WHERE `Usuario`='$user' AND `Pass`='$pass';";
             $consulta=$this->con->query($query);
             $this->con->close();
             return $consulta;
