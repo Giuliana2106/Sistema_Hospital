@@ -12,7 +12,7 @@
             $query="SELECT * FROM `citas` WHERE Consulta = 'Pediatra'";
             $resultado=$this->con->query($query);
             $this->con->close();
-            return $resultado();
+            return $resultado;
         }
 
         public function VerCita()
