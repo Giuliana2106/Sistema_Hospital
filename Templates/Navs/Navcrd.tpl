@@ -4,6 +4,7 @@
 
 {if $nav='Cardiologo'}
     <a href="?controller=NavCardio&method=Citas" class="collection-item">Citas</a>
+    <a href="?controller=NavCardio&method=Disponi" class="collection-item">Disponibilidad</a>
     <a href="?controller=Home&method=Inicio" class="collection-item">Salir</a>
 {/if}
 </div>   

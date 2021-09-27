@@ -20,6 +20,9 @@
     {if isset($rol)}
         {if $rol=='citas'}
             {include file='Cardiologo/Citas.tpl'}
+            {if $rol=='disponibilidad'}
+              {include file='Cardiologo/Dispo.tpl'}
+              {/if}
         {/if}
     {/if}
     </div>

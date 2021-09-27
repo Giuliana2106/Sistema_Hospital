@@ -9,17 +9,20 @@
   </div>
   <br></br>
     <div class="col s5">
-    {include file="Navs/Navcrd.tpl"}
+    {include file="Navs/Navpdt.tpl"}
     </div>
 
     <div class="col 1">
     </div>
 
     <div class="col s5">
-    <h1>Cardiólogo</h1>
+    <h1>Pediatra</h1>
     {if isset($rol)}
         {if $rol=='citas'}
             {include file='Pediatra/Citas.tpl'}
+            {if $rol=='disponibilidad'}
+              {include file='Pediatra/Dispo.tpl'}
+            {/if}
         {/if}
     {/if}
     </div>

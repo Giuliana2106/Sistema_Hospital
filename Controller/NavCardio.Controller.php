@@ -17,4 +17,12 @@
             $this->smarty->display('Cardiologo.tpl');
         }
 
+        public function Disponi()
+        {
+            $this->smarty->assign('nav', 'cardiologo');
+            $this->smarty->assign('rol','disponibilidad');
+            $this->smarty->assign('title','Cardiologo');
+            $this->smarty->display('Cardiologo.tpl');
+        }
+
     }

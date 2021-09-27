@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-25 04:48:46
+/* Smarty version 3.1.39, created on 2021-09-27 19:43:34
   from 'C:\xampp\htdocs\Sistema_Hospital\templates\Cardiologo.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_614e8e0e6a1821_88335253',
+  'unifunc' => 'content_615202c5f38f23_87759587',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'eb4ea06a202abdb5f3475107749ad97b85b85e01' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Sistema_Hospital\\templates\\Cardiologo.tpl',
-      1 => 1632538089,
+      1 => 1632764608,
       2 => 'file',
     ),
   ),
@@ -21,10 +21,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:templates/Cabeceras/Header.tpl' => 1,
     'file:Navs/Navcrd.tpl' => 1,
     'file:Cardiologo/Citas.tpl' => 1,
+    'file:Cardiologo/Dispo.tpl' => 1,
     'file:templates/Cabeceras/Footer.tpl' => 1,
   ),
 ),false)) {
-function content_614e8e0e6a1821_88335253 (Smarty_Internal_Template $_smarty_tpl) {
+function content_615202c5f38f23_87759587 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("file:templates/Cabeceras/Header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 <div class="row">
@@ -50,6 +51,10 @@ $_smarty_tpl->_subTemplateRender("file:templates/Cabeceras/Header.tpl", $_smarty
         <?php if ($_smarty_tpl->tpl_vars['rol']->value == 'citas') {?>
             <?php $_smarty_tpl->_subTemplateRender('file:Cardiologo/Citas.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
+            <?php if ($_smarty_tpl->tpl_vars['rol']->value == 'disponibilidad') {?>
+              <?php $_smarty_tpl->_subTemplateRender('file:Cardiologo/Dispo.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>
+              <?php }?>
         <?php }?>
     <?php }?>
     </div>
