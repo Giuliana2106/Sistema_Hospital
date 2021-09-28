@@ -30,6 +30,17 @@
         <label for="Password">Password</label>
         </div> 
 
+        <div class="row" align="center" cyan accent-4>
+        <div class="input-field col s12">
+            <select class="browser-default" name="rol">
+                {foreach from=$NombreRol item=$nr}
+                    <option value="{$nr['idRol']}">{$nr['Nombre']}</option>
+            {/foreach}
+            </select>
+            <label for="rol">Rol</label></nav>
+        </div>
+    </div>
+
         <div class="row">
             <div class="input-field col s12">
             <input class="btn waves-effect waves-light" type="submit" name="action"/>

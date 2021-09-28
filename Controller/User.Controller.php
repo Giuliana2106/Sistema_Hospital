@@ -7,6 +7,7 @@
         {
             $this->usuario=new Usuario();
             $this->smarty=new Smarty();
+            session_start();
         }
 
         public function BuscarUsuario()
@@ -23,6 +24,7 @@
                 {
                     array_push($arr,$fila);
                 }
+                $_SESSION['id_Usuario']=$arr[0]['idUsuario'];
                 if ($arr[0]['Rol_idRol']==1)
                 {
                     $this->smarty->assign('title','Doctor');

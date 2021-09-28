@@ -12,7 +12,16 @@
         
         public function Registro()
         {
+            $ad=$this->secretaria->VerRol();
+            $arr=array();
+
+            while($row=mysqli_fetch_assoc($ad))
+            {
+                array_push($arr,$row);
+            }
+
             $this->smarty->assign('nav',"secretaria");
+            $this->smarty->assign('NombreRol',$arr);
             $this->smarty->assign('rol',"registro");
             $this->smarty->assign('title','Secretaria');
             $this->smarty->display('Secretaria.tpl');
