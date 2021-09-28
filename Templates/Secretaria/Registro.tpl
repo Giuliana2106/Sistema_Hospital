@@ -35,7 +35,7 @@
                 <select class="browser-default" name="rol">
                     {foreach from=$NombreRol item=$nr}
                         <option value="{$nr['idRol']}">{$nr['Nombre']}</option>
-                {/foreach}
+                    {/foreach}
                 </select>
                 <label for="rol">Rol</label></nav>
             </div>

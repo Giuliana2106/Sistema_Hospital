@@ -9,7 +9,7 @@
             {
                 $this->secretaria=new Secretary();
                 $this->smarty=new Smarty();
-                $this->direc=new DireccionNav();
+                
             }
 
             public function Registro()

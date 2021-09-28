@@ -1,4 +1,4 @@
-<div class="col s3">
+<div class="col 5">
     <nav class = "center-align cyan accent-4">Opciones</nav>
 <div class="collection">
 
