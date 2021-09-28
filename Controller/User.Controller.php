@@ -11,7 +11,7 @@
 
         public function BuscarUsuario()
         {
-            $user=$_POST['nombre'];
+            $user=$_POST['user'];
             $pass=$_POST['pass'];
             
             $u=$this->usuario->BuscarUsuario($user,$pass);
