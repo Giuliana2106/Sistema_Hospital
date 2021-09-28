@@ -19,7 +19,11 @@
             {
                 array_push($arr,$row);
             }
+<<<<<<< HEAD
 
+=======
+           
+>>>>>>> edb68d0567a985200e06d3c36248feba5ef45b64
             $this->smarty->assign('nav',"secretaria");
             $this->smarty->assign('NombreRol',$arr);
             $this->smarty->assign('rol',"registro");

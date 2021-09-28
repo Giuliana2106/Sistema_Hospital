@@ -31,6 +31,7 @@
         </div> 
 
         <div class="row" align="center" cyan accent-4>
+<<<<<<< HEAD
         <div class="input-field col s12">
             <select class="browser-default" name="rol">
                 {foreach from=$NombreRol item=$nr}
@@ -40,6 +41,19 @@
             <label for="rol">Rol</label></nav>
         </div>
     </div>
+=======
+            <div class="input-field col s12">
+                <select class="browser-default" name="rol">
+                    {foreach from=$NombreRol item=$nr}
+                        <option value="{$nr['idRol']}">{$nr['Nombre']}</option>
+                    {/foreach}
+                </select>
+                <label for="rol">Rol</label></nav>
+            </div>
+        </div>
+
+
+>>>>>>> edb68d0567a985200e06d3c36248feba5ef45b64
 
         <div class="row">
             <div class="input-field col s12">

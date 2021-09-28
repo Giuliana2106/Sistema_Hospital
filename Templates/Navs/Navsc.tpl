@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <div class="col s5">
+=======
+<div class="col 5">
+>>>>>>> edb68d0567a985200e06d3c36248feba5ef45b64
     <nav class = "center-align cyan accent-4">Opciones</nav>
 <div class="collection">
 
