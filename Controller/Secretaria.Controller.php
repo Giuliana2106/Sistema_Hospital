@@ -14,10 +14,10 @@
 
             public function Registro()
             {
-                $rol=$_POST['rol'];
-                $nombre=$_POST['nombre'];
-                $user=$_POST['user'];
-                $pass=$_POST['pass'];
+                $rol=$_POST['Rol_idRol'];
+                $nombre=$_POST['Nombre'];
+                $user=$_POST['User'];
+                $pass=$_POST['Pass'];
                // $rol=$_POST['Rol_idRol'];
 
                 $con=$this->secretaria->CrearRegistro($rol, $nombre, $user, $pass);
