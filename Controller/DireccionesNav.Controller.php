@@ -7,7 +7,7 @@
         public function __construct()
         {
             $this->smarty=new Smarty();
-            $this->secretaria=new Secretaria(); 
+            $this->secretaria=new Secretary(); 
         }
         
         public function Registro()
@@ -19,11 +19,7 @@
             {
                 array_push($arr,$row);
             }
-<<<<<<< HEAD
 
-=======
-           
->>>>>>> edb68d0567a985200e06d3c36248feba5ef45b64
             $this->smarty->assign('nav',"secretaria");
             $this->smarty->assign('NombreRol',$arr);
             $this->smarty->assign('rol',"registro");

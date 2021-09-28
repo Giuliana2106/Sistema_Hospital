@@ -8,8 +8,8 @@
                 <tr>
                     <th>Edad</th>
                     <th>Consulta</th>
-                    <th>DPI o No. de Seguro</th>
-                    <th>Fecha de Consulta</th>
+                    <th>Fecha de consulta</th>
+                    <th>DPI</th>
                 </tr>          
             </thead>
             <tbody>
@@ -26,7 +26,7 @@
                         {$pac['Fecha']}
                     </td>
                     <td>
-                        {$pac['DPI o No.Seguro']}
+                        {$pac['DPI']}
                     </td>
                 </tr>
             {/foreach}

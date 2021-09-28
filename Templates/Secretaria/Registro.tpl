@@ -1,7 +1,7 @@
 {include file="templates/Cabeceras/Header.tpl"}
 <div class="card-panel cyan accent-1">         
       
-      <div class="row" align="left">
+      <div class="row" align="center">
           <div class="col s12 m6">
           <div class="card blue-grey darken-1">
           </div>
@@ -10,7 +10,7 @@
      
 
 <div class="row" align="center">
-<h4>Registro de pacientes</h4>
+<h4>Registro de usuarios</h4>
     <div class="col s12">
         <form method="post" action="?controller=Secretaria&method=Registro">
         
@@ -30,30 +30,16 @@
         <label for="Password">Password</label>
         </div> 
 
-        <div class="row" align="center" cyan accent-4>
-<<<<<<< HEAD
-        <div class="input-field col s12">
-            <select class="browser-default" name="rol">
+        <div class="row">
+        <div class="input-field col s8">
+        <label for="rol">Rol</label></nav><br></br>
+        <select class="browser-default" name="rol">
                 {foreach from=$NombreRol item=$nr}
                     <option value="{$nr['idRol']}">{$nr['Nombre']}</option>
             {/foreach}
             </select>
-            <label for="rol">Rol</label></nav>
         </div>
     </div>
-=======
-            <div class="input-field col s12">
-                <select class="browser-default" name="rol">
-                    {foreach from=$NombreRol item=$nr}
-                        <option value="{$nr['idRol']}">{$nr['Nombre']}</option>
-                    {/foreach}
-                </select>
-                <label for="rol">Rol</label></nav>
-            </div>
-        </div>
-
-
->>>>>>> edb68d0567a985200e06d3c36248feba5ef45b64
 
         <div class="row">
             <div class="input-field col s12">

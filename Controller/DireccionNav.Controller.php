@@ -7,6 +7,7 @@
         public function __construct()
         {
             $this->smarty=new Smarty();
+            $this->paciente = new Pacientes();
         }
 
         public function Registro()
@@ -19,6 +20,13 @@
 
         public function VerCita()
         {
+            $p=$this->paciente->VerCita($_SESSION['id_Usuario']);
+            $array=array();
+            while($row=mysqli_fetch_assoc($p))
+            {
+                array_push($array, $row);
+            }
+            $this->smarty->assign('paciente', $array);
             $this->smarty->assign('nav', 'paciente');
             $this->smarty->assign('rol','vercita');
             $this->smarty->assign('title','Paciente');
