@@ -15,7 +15,7 @@
     <div class="col 1">
     </div>
 
-    <div class="col s7">
+    <div class="col s5">
     <h1>Secretaria</h1>
     {if isset($rol)}
         {if $rol=='registro'}
