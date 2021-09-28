@@ -1,7 +1,7 @@
 {include file="templates/Cabeceras/Header.tpl"}
 <div class="card-panel cyan accent-1">         
       
-      <div class="row" align="center">
+      <div class="row" align="left">
           <div class="col s12 m6">
           <div class="card blue-grey darken-1">
           </div>

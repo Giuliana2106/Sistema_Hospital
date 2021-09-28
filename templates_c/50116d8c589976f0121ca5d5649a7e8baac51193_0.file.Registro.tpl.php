@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-29 00:33:48
+/* Smarty version 3.1.39, created on 2021-09-29 00:38:50
   from 'C:\xampp\htdocs\Sistema_Hospital\templates\Secretaria\Registro.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6153984cab03f9_04900882',
+  'unifunc' => 'content_6153997a1be834_74011486',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '50116d8c589976f0121ca5d5649a7e8baac51193' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Sistema_Hospital\\templates\\Secretaria\\Registro.tpl',
-      1 => 1632868426,
+      1 => 1632868726,
       2 => 'file',
     ),
   ),
@@ -22,12 +22,12 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:templates/Cabeceras/Footer.tpl' => 1,
   ),
 ),false)) {
-function content_6153984cab03f9_04900882 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6153997a1be834_74011486 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("file:templates/Cabeceras/Header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 <div class="card-panel cyan accent-1">         
       
-      <div class="row" align="center">
+      <div class="row" align="left">
           <div class="col s12 m6">
           <div class="card blue-grey darken-1">
           </div>
@@ -36,7 +36,7 @@ $_smarty_tpl->_subTemplateRender("file:templates/Cabeceras/Header.tpl", $_smarty
      
 
 <div class="row" align="center">
-<h4>Registro de pacientes</h4>
+<h4>Registro de usuarios</h4>
     <div class="col s12">
         <form method="post" action="?controller=Secretaria&method=Registro">
         

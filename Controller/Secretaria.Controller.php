@@ -33,7 +33,7 @@
                 $hora=$_POST['Hora'];
 
                 $con=$this->secretaria->Crearconsulta($iduser, $consult, $edad, $fecha, $hora);
-                $this->smarty->assign('nav',"secretaria");
+                $this->smarty->assign('nav','secretaria');
                 $this->smarty->assign('title','Secretaria');
                 $this->smarty->display('Secretaria.tpl');
            
