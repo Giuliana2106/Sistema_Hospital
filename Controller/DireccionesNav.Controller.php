@@ -21,6 +21,7 @@
             }
            
             $this->smarty->assign('nav',"secretaria");
+            $this->smarty->assign('NombreRol',$arr);
             $this->smarty->assign('rol',"registro");
             $this->smarty->assign('title','Secretaria');
             $this->smarty->display('Secretaria.tpl');
