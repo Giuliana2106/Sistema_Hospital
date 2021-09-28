@@ -1,7 +1,7 @@
 {include file="templates/Cabeceras/Header.tpl"}
 <div class="card-panel cyan accent-1">         
       
-      <div class="row" align="left">
+      <div class="row">
           <div class="col s12 m6">
           <div class="card blue-grey darken-1">
           </div>
@@ -9,8 +9,8 @@
       </div>      
      
 
-<div class="row" align="center">
-<h4>Registro de pacientes</h4>
+<div class="row">
+<h4>Registro de usuarios</h4>
     <div class="col s12">
         <form method="post" action="?controller=Secretaria&method=Registro">
         
