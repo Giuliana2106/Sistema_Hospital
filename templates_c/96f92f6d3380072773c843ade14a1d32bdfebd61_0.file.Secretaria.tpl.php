@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-25 03:49:33
+/* Smarty version 3.1.39, created on 2021-09-28 23:49:23
   from 'C:\xampp\htdocs\Sistema_Hospital\templates\Secretaria.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_614e802d131658_30584412',
+  'unifunc' => 'content_61538de300b151_80514449',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '96f92f6d3380072773c843ade14a1d32bdfebd61' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Sistema_Hospital\\templates\\Secretaria.tpl',
-      1 => 1632534552,
+      1 => 1632865761,
       2 => 'file',
     ),
   ),
@@ -30,7 +30,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:templates/Cabeceras/Footer.tpl' => 1,
   ),
 ),false)) {
-function content_614e802d131658_30584412 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61538de300b151_80514449 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("file:templates/Cabeceras/Header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 <div class="row">
@@ -50,7 +50,7 @@ $_smarty_tpl->_subTemplateRender("file:templates/Cabeceras/Header.tpl", $_smarty
     <div class="col 1">
     </div>
 
-    <div class="col s5">
+    <div class="col s7">
     <h1>Secretaria</h1>
     <?php if ((isset($_smarty_tpl->tpl_vars['rol']->value))) {?>
         <?php if ($_smarty_tpl->tpl_vars['rol']->value == 'registro') {?>

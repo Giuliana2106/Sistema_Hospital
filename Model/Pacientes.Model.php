@@ -18,9 +18,9 @@
             return $resultado;
         }
 
-        public function VerCita()
+        public function VerCita($id)
        {
-           $query="SELECT * FROM `citas`;";
+           $query="SELECT * FROM `citas` WHERE `Usuario_idUsuario`='$id';";
            $resultado=$this->con->query($query);
            $this->con->close();
            return $resultado;

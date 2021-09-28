@@ -8,8 +8,10 @@
           </div>
       </div>      
      
-
 <div class="row">
+
+<div class="row" align="center">
+
 <h4>Registro de usuarios</h4>
     <div class="col s12">
         <form method="post" action="?controller=Secretaria&method=Registro">
@@ -31,17 +33,15 @@
         </div> 
 
         <div class="row">
-            <div class="input-field col s8">
-                <select class="browser-defult" name="rol">
-                    {{foreach from=$NombreRol item=$n}
-                        <option value="{$n['Nombre']}">{$n['Nombre']}</option>
-                    {/foreach}}
-                </select>
-                <label for="rol">Rol</label>
-            </div>
-        </div>  
-    
-
+        <div class="input-field col s8">
+        <label for="rol">Rol</label></nav><br></br>
+        <select class="browser-default" name="rol">
+                {foreach from=$NombreRol item=$nr}
+                    <option value="{$nr['idRol']}">{$nr['Nombre']}</option>
+            {/foreach}
+            </select>
+        </div>
+    </div>
 
         <div class="row">
             <div class="input-field col s12">

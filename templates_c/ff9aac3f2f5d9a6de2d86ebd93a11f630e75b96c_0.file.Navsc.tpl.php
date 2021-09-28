@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-28 19:09:34
+/* Smarty version 3.1.39, created on 2021-09-29 00:37:14
   from 'C:\xampp\htdocs\Sistema_Hospital\templates\Navs\Navsc.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_61534c4e831dc0_27888451',
+  'unifunc' => 'content_6153991a02b7c2_43270046',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ff9aac3f2f5d9a6de2d86ebd93a11f630e75b96c' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Sistema_Hospital\\templates\\Navs\\Navsc.tpl',
-      1 => 1632848806,
+      1 => 1632868529,
       2 => 'file',
     ),
   ),
@@ -20,8 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_61534c4e831dc0_27888451 (Smarty_Internal_Template $_smarty_tpl) {
-?><div class="col s5">
+function content_6153991a02b7c2_43270046 (Smarty_Internal_Template $_smarty_tpl) {
+?>
+<div class="col s5">
     <nav class = "center-align cyan accent-4">Opciones</nav>
 <div class="collection">
 
