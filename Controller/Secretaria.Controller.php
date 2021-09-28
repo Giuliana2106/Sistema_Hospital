@@ -9,10 +9,6 @@
             {
                 $this->secretaria=new Secretary();
                 $this->smarty=new Smarty();
-<<<<<<< HEAD
-=======
-                
->>>>>>> edb68d0567a985200e06d3c36248feba5ef45b64
             }
 
             public function Registro()
@@ -25,7 +21,7 @@
 
                 $con=$this->secretaria->CrearRegistro($rol, $nombre, $user, $pass);
                 $this->smarty->assign('title','Secretaria');
-                $this->smarty->assign('nav',"secretaria");
+                $this->smarty->assign('nav','secretaria');
                 $this->smarty->assign('title','Secretaria');
                 $this->smarty->display('Secretaria.tpl');
             } 
@@ -38,7 +34,7 @@
                 $hora=$_POST['Hora'];
 
                 $con=$this->secretaria->Crearconsulta($iduser, $consult, $edad, $fecha, $hora);
-                $this->smarty->assign('nav',"secretaria");
+                $this->smarty->assign('nav','secretaria');
                 $this->smarty->assign('title','Secretaria');
                 $this->smarty->display('Secretaria.tpl');
            
