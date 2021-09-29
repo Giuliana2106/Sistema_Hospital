@@ -42,7 +42,7 @@
             $this->smarty->display('Secretaria.tpl');
         }
 
-        public function VerRegistro()
+        public function VerRegistros()
         {
 
             
