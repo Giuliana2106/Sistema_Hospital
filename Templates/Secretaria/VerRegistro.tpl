@@ -7,7 +7,7 @@
     </div>
 
     <div class="row">
-        <div class="col s8">
+        <div class="input-field col s8">
             <table>
                 <thead class="text_center">
                     <tr>

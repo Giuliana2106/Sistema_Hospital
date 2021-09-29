@@ -1,13 +1,5 @@
 {include file="templates/Cabeceras/header.tpl"}
-
-<div class="card-panel cyan accent-1">         
-
-<div class="row">
-    <div class="col s12 m6">
-    <div class="card blue-grey darken-1">
-    </div>
-    </div>
-</div>      
+    
     <div class="row">
         <div class="input-field col s12">
             <h4 class="center-align white-text">Ver Consultas</h4>
@@ -15,7 +7,7 @@
     </div>
 
     <div class="row">
-        <div class="col s12">
+        <div class="input-field col s12">
             <table>
                 <thead class="text_center">
                     <tr>
