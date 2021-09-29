@@ -57,5 +57,20 @@
            return $resultado;
         }
 
+        public function CitasNutricio()
+        {
+           $query="SELECT * FROM `citas` WHERE `Consulta`='Nutricionista';";
+           $resultado=$this->con->query($query);
+           $this->con->close();
+           return $resultado;
+        }
+
+        public function CitasPediatra()
+        {
+           $query="SELECT * FROM `citas` WHERE `Consulta`='Pediatra';";
+           $resultado=$this->con->query($query);
+           $this->con->close();
+           return $resultado;
+        }
     }
 ?>
