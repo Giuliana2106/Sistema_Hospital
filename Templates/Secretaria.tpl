@@ -1,19 +1,19 @@
 {include file="templates/Cabeceras/Header.tpl"}
 <div class="row">
-<div class="navbar-fixed">
-  <nav>
-    <nav class=" cyan accent-4">
+  <div class="navbar-fixed">
+    <nav>
+      <nav class="cyan accent-4">
       <a href="" class="brand-logo">🍏Health Center </a>
+      </nav>
     </nav>
-  </nav>
   </div>
-  <br></br>
-    <div class="col s5">
-    {include file="Navs/Navsc.tpl"}
-    </div>
+<br></br>
+  <div class="col s5">
+  {include file="Navs/Navsc.tpl"}
+  </div>
 
     <div class="col 1">
-    </div>
+  </div>
 
     <div class="col s5">
     <h1>Secretaria</h1>

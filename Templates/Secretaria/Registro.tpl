@@ -2,7 +2,7 @@
 <div class="card-panel cyan accent-1">         
       
       <div class="row">
-          <div class="col s12 m6">
+          <div class="col s8 m6">
           <div class="card blue-grey darken-1">
           </div>
           </div>
