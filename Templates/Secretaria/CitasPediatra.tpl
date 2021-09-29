@@ -1,16 +1,7 @@
-{include file="templates/Cabeceras/header.tpl"}
-
-<div class="card-panel cyan accent-1">         
-
-<div class="row">
-    <div class="col s12 m6">
-    <div class="card blue-grey darken-1">
-    </div>
-    </div>
-</div>      
+{include file="templates/Cabeceras/header.tpl"}       
     <div class="row">
         <div class="input-field col s12">
-            <h4 class="center-align white-text">Ver Consultas</h4>
+            <h4 class="center-align white-text">Ver citas de pediatra</h4>
         </div>
     </div>
 
@@ -57,6 +48,4 @@
             </table>
         </div>
     </div>
-    
-</div>
 {include file="templates/Cabeceras/footer.tpl"}

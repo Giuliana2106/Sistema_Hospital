@@ -1,9 +1,7 @@
 {include file="templates/Cabeceras/header.tpl"}
-
-     
     <div class="row">
         <div class="input-field col s12">
-            <h4 class="center-align white-text">Ver Consultas</h4>
+            <h4 class="center-align white-text">Ver citas de cardiologia</h4>
         </div>
     </div>
 
@@ -50,6 +48,4 @@
             </table>
         </div>
     </div>
-    
-
 {include file="templates/Cabeceras/footer.tpl"}
