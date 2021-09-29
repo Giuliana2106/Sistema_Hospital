@@ -19,7 +19,7 @@
                 array_push($arr,$row);
             }
 
-            $this->smarty->assign('nav',"secretarias");
+            $this->smarty->assign('nav','secretarias');
             $this->smarty->assign('NombreRol',$arr);
             $this->smarty->assign('rol','registro');
             $this->smarty->assign('title','Secretaria');
