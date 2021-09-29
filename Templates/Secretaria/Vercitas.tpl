@@ -22,30 +22,30 @@
                 </thead>
                 <tbody>
             {if isset ($secretaria)}
-                    {foreach from=$secretaria item=$secretaria }
+                    {foreach from=$secretaria item=$secre }
                         <tr>
                              <td>
-                                {$secretaria['Usuario_idUsuario']}
+                                {$secre['Usuario_idUsuario']}
                             </td>
 
                             <td>
-                                {$secretaria['consulta']}
+                                {$secre['consulta']}
                             </td>
 
                             <td>
-                                {$secretaria['edad']}
+                                {$secre['edad']}
                             </td>
 
                             <td>
-                                 {$secretaria['DPI']}
+                                 {$secre['DPI']}
                             </td>
 
                             <td>
-                                 {$secretaria['fecha']}
+                                 {$secre['fecha']}
                             </td>
 
                             <td>
-                                  {$secretaria['hora']}
+                                  {$secre['hora']}
                             </td>    
                         </tr>
                     {/foreach}

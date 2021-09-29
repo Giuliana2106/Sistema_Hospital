@@ -19,23 +19,23 @@
                     </tr>
                 </thead>
                 <tbody>
-            {if isset ($secretarias)}
-                    {foreach from=$secretarias item=$secretaria }
+            {if isset ($secretaria)}
+                    {foreach from=$secretaria item=$secre }
                         <tr>
                             <td>
-                                {$secretaria['Nombre']}
+                                {$secre['Nombre']}
                             </td>
 
                             <td>
-                                 {$secretaria['Usuario']}
+                                 {$secre['Usuario']}
                             </td>
 
                             <td>
-                                 {$secretaria['Password']}
+                                 {$secre['Password']}
                             </td>
 
                             <td>
-                                  {$secretaria['Rol']}
+                                  {$secre['Rol']}
                             </td>    
                         </tr>
                     {/foreach}

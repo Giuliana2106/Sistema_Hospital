@@ -1,13 +1,13 @@
 <?php
     class Secretaria
         {
-            public $secretaria;
+            public $secre;
             public $smarty;
             
 
             public function __construct()
             {
-                $this->secretaria=new Secretary();
+                $this->secre=new Secretary();
                 $this->smarty=new Smarty();
             }
 
@@ -19,7 +19,7 @@
                 $pass=$_POST['Pass'];
                // $rol=$_POST['Rol_idRol'];
 
-                $z=$this->secretaria->CrearRegistro($rol, $nombre, $user, $pass);
+                $z=$this->secre->CrearRegistro($rol, $nombre, $user, $pass);
                 $this->smarty->assign('nav',"Secretaria");
                 $this->smarty->assign('title','Secretaria');
                 $this->smarty->display('Secretaria/Registro.tpl');
@@ -33,7 +33,7 @@
                 $fecha=$_POST['Fecha'];
                 $hora=$_POST['Hora'];
 
-                $m=$this->secretaria->Crearconsulta($iduser, $consult, $edad, $DPI, $fecha, $hora);
+                $m=$this->secre->Crearconsulta($iduser, $consult, $edad, $DPI, $fecha, $hora);
                 $this->smarty->assign('nav','Secretaria');
                 $this->smarty->assign('title','Secretaria');
                 $this->smarty->display('Secretaria.tpl');
