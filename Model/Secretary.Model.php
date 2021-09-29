@@ -5,6 +5,7 @@
         public function __construct()
         {
             $this->con=new Conexion();
+            session_start();
         }
 
         public function VerRol()

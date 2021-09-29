@@ -19,7 +19,7 @@
                 $pass=$_POST['Pass'];
                // $rol=$_POST['Rol_idRol'];
 
-                $con=$this->secretaria->CrearRegistro($rol, $nombre, $user, $pass);
+                $z=$this->secretaria->CrearRegistro($rol, $nombre, $user, $pass);
                 $this->smarty->assign('nav',"Secretaria");
                 $this->smarty->assign('title','Secretaria');
                 $this->smarty->display('Secretaria.tpl');
@@ -33,7 +33,7 @@
                 $fecha=$_POST['Fecha'];
                 $hora=$_POST['Hora'];
 
-                $con=$this->secretaria->Crearconsulta($iduser, $consult, $edad, $DPI, $fecha, $hora);
+                $m=$this->secretaria->Crearconsulta($iduser, $consult, $edad, $DPI, $fecha, $hora);
                 $this->smarty->assign('nav','Secretaria');
                 $this->smarty->assign('title','Secretaria');
                 $this->smarty->display('Secretaria.tpl');
