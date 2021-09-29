@@ -36,7 +36,7 @@
 
         public function Vercitas()
         {
-            $ci=$this->secretaria->Vercitas($_SESSION[]);
+            $ci=$this->secretaria->Vercitas();
             $array=array();
             while($row=mysqli_fetch_assoc($ci))
             {
@@ -52,7 +52,7 @@
         public function VerRegistros()
         {
 
-            $r=$this->secretaria->VerRegistros($_SESSION[]);
+            $r=$this->secretaria->VerRegistros();
             $array=array();
             while($row=mysqli_fetch_assoc($r))
             {
@@ -68,7 +68,7 @@
 
         public function CitasCardio()
         {
-            $c=$this->secretaria->CitasCardio($_SESSION[]);
+            $c=$this->secretaria->CitasCardio();
             $array=array();
             while($row=mysqli_fetch_assoc($c))
             {
@@ -84,7 +84,7 @@
         public function CitasNutricio()
         {
 
-            $nu=$this->secretaria->CitasNutricio($_SESSION[]);
+            $nu=$this->secretaria->CitasNutricio();
             $array=array();
             while($row=mysqli_fetch_assoc($nu))
             {
@@ -99,7 +99,7 @@
 
         public function CitasPediatra()
         {
-            $pe=$this->secretaria->VerCita($_SESSION[]);
+            $pe=$this->secretaria->VerCita();
             $array=array();
             while($row=mysqli_fetch_assoc($pe))
             {
