@@ -1,7 +1,7 @@
 {include file="templates/Cabeceras/header.tpl"}       
     <div class="row">
         <div class="input-field col s12">
-            <h4 class="center-align white-text">Ver citas de pediatra</h4>
+            <h4 class="center-align black-text">Ver citas de pediatra</h4>
         </div>
     </div>
 

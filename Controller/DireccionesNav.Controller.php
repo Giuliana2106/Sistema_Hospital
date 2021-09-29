@@ -44,10 +44,13 @@
 
         public function VerRegistro()
         {
+
+            
             $this->smarty->assign('nav','secretaria');
             $this->smarty->assign('rol','verregistro');
             $this->smarty->assign('title','Secretaria');
             $this->smarty->display('Secretaria.tpl');
+            
         }
 
         public function CitasCardio()

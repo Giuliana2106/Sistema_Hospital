@@ -2,7 +2,7 @@
     
     <div class="row">
         <div class="input-field col s12">
-            <h4 class="center-align white-text">Ver registro de los pacientes</h4>
+            <h4 class="center-align black-text">Ver registro de los pacientes</h4>
         </div>
     </div>
 
@@ -19,23 +19,23 @@
                     </tr>
                 </thead>
                 <tbody>
-            {if isset ($secretaria)}
-                    {foreach from=$secretaria item=$secre }
+            {if isset ($secretarias)}
+                    {foreach from=$secretarias item=$secretaria }
                         <tr>
                             <td>
-                                {$secre['Nombre']}
+                                {$secretaria['Nombre']}
                             </td>
 
                             <td>
-                                 {$secre['Usuario']}
+                                 {$secretaria['Usuario']}
                             </td>
 
                             <td>
-                                 {$secre['Password']}
+                                 {$secretaria['Password']}
                             </td>
 
                             <td>
-                                  {$secre['Rol']}
+                                  {$secretaria['Rol']}
                             </td>    
                         </tr>
                     {/foreach}
