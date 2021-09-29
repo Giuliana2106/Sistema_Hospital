@@ -13,7 +13,7 @@
 
             public function RegistroUsuario()
             {
-                $rol=$_POST['Rol_idRol'];
+                $rol=$_POST['rol'];
                 $nombre=$_POST['Nombre'];
                 $user=$_POST['User'];
                 $pass=$_POST['Pass'];

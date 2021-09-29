@@ -18,17 +18,17 @@
         
 
              <div class="input-field col s8">
-            <input id="Nombre" type="text" class="validate" required="" name="nombre"/>
+            <input id="Nombre" type="text" class="validate" required="" name="Nombre"/>
             <label for="Nombre">Nombre</label>
             </div>   
 
             <div class="input-field col 8">
-            <input id="User" type="text" class="validate" required="" name="user"/>
+            <input id="User" type="text" class="validate" required="" name="User"/>
             <label for="User">Usuario</label>
             </div>  
 
             <div class="input-field col s8">
-            <input id="Password" type="password" class="validate" required="" name="pass"/>
+            <input id="Password" type="password" class="validate" required="" name="Pass"/>
             <label for="Password">Password</label>
             </div> 
 
