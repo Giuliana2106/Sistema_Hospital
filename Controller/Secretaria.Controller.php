@@ -14,9 +14,9 @@
             public function RegistroUsuario()
             {
                 $rol=$_POST['rol'];
-                $nombre=$_POST['Nombre'];
-                $user=$_POST['User'];
-                $pass=$_POST['Pass'];
+                $nombre=$_POST['nombre'];
+                $user=$_POST['user'];
+                $pass=$_POST['pass'];
                // $rol=$_POST['Rol_idRol'];
 
                 $z=$this->secre->CrearRegistro($rol, $nombre, $user, $pass);
