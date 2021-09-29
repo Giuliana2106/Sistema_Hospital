@@ -23,9 +23,9 @@
             return $resultado;
         }
         
-        public function Crearconsulta($iduser, $consult, $edad, $fecha, $hora)
+        public function Crearconsulta($iduser, $consult, $edad, $DPI, $fecha, $hora)
         {
-            $query="INSERT INTO `citas`(`Usuario_idUsuario`, `Consulta`,`Edad`, `Fecha`, `Hora`) VALUES ('$iduser''$consult','$edad','$fecha','$hora');";
+            $query="INSERT INTO `citas`(`Usuario_idUsuario`, `Consulta`,`Edad`, `DPI`, `Fecha`, `Hora`) VALUES ('$iduser''$consult','$edad', '$DPI', '$fecha','$hora');";
             $resultado=$this->con->query($query);
             $this->con->close();
             return $resultado;

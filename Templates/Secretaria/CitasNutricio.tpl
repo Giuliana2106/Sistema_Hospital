@@ -13,6 +13,7 @@
                         <th>Usuario_idUsuario</th>
                         <th>Consulta</th>
                         <th>Edad</th>
+                        <th>DPI</th>
                         <th>Fecha de Consulta</th>
                         <th>Hora de la Consulta</th>
 
@@ -32,6 +33,10 @@
 
                             <td>
                                  {$secre['edad']}
+                            </td>
+
+                            <td>
+                                 {$secre['DPI']}
                             </td>
 
                             <td>
