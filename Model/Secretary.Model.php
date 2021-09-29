@@ -34,14 +34,28 @@
         }
 
         public function VerRegistros()
-       {
+        {
            $query="SELECT * FROM `usuario`;";
            $resultado=$this->con->query($query);
            $this->con->close();
            return $resultado;
-       }
+        }
 
-        
+        public function Vercitas()
+        {
+           $query="SELECT * FROM `citas`;";
+           $resultado=$this->con->query($query);
+           $this->con->close();
+           return $resultado;
+        }
+
+        public function CitasCardio()
+        {
+           $query="SELECT * FROM `citas` WHERE `Consulta`='Cardiologo';";
+           $resultado=$this->con->query($query);
+           $this->con->close();
+           return $resultado;
+        }
 
     }
 ?>
