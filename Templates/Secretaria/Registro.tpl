@@ -14,7 +14,7 @@
 
     <h4>Registro de usuarios</h4>
         <div class="col s8">
-            <form method="post" action="?controller=Secretaria&method=Registro">
+            <form method="post" action="?controller=Secretaria&method=RegistroUsuario">
         
 
              <div class="input-field col s8">

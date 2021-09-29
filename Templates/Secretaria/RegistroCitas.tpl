@@ -14,7 +14,7 @@
 
     <h4>Registrar citas</h4>
         <div class="col s8">
-            <form method="post" action="?controller=Secretaria&method=RegistroCitas">
+            <form method="post" action="?controller=Secretaria&method=RegistraCitas">
             
             <div class="input-field col s8">
             <input id="iduser" type="text" class="validate" required="" name="Usuario_idUsuario"/>
