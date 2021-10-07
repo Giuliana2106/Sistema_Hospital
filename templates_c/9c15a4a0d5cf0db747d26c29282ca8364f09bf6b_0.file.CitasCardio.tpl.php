@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-24 07:45:45
+/* Smarty version 3.1.39, created on 2021-09-29 04:33:55
   from 'C:\xampp\htdocs\Sistema_Hospital\templates\Secretaria\CitasCardio.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_614d660994e2d6_76077329',
+  'unifunc' => 'content_6153d093784709_03724035',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9c15a4a0d5cf0db747d26c29282ca8364f09bf6b' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Sistema_Hospital\\templates\\Secretaria\\CitasCardio.tpl',
-      1 => 1632461606,
+      1 => 1632882206,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:templates/Cabeceras/footer.tpl' => 1,
   ),
 ),false)) {
-function content_614d660994e2d6_76077329 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6153d093784709_03724035 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("file:templates/Cabeceras/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
@@ -36,7 +36,7 @@ $_smarty_tpl->_subTemplateRender("file:templates/Cabeceras/header.tpl", $_smarty
 </div>      
     <div class="row">
         <div class="input-field col s12">
-            <h4 class="center-align white-text">Ver Consultas</h4>
+            <h4 class="center-align black-text">Ver Citas de Cardiologia</h4>
         </div>
     </div>
 

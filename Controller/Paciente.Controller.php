@@ -19,7 +19,7 @@
             $x=$this->pac->Registro($edad, $consulta, $DPI, $fecha);
             $this->smarty->assign('nav', 'Paciente');
             $this->smarty->assign('title', 'Paciente');
-            $this->smarty->display('Paciente/Registro.tpl');
+            $this->smarty->display('Paciente.tpl');
 
         }
 

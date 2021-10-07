@@ -1,6 +1,4 @@
-{include file="templates/Cabeceras/header.tpl"}
-
-<div class="card-panel cyan accent-1">         
+{include file="templates/Cabeceras/header.tpl"}     
 
 <div class="row">
     <div class="col s12 m6">
@@ -10,7 +8,7 @@
 </div>      
     <div class="row">
         <div class="input-field col s12">
-            <h4 class="center-align white-text">Ver Consultas</h4>
+            <h4 class="center-align black-text">Ver Consultas</h4>
         </div>
     </div>
 
@@ -23,33 +21,28 @@
                         <th>Consulta</th>
                         <th>Edad</th>
                         <th>Fecha de Consulta</th>
-                        <th>Hora de la Consulta</th>
 
                     </tr>
                 </thead>
                 <tbody>
-            {if isset ($secretaria)}
-                    {foreach from=$secretaria item=$secre }
+            {if isset ($cita)}
+                    {foreach from=$cita item=$secre }
                         <tr>
                              <td>
                                 {$secre['Usuario_idUsuario']}
                             </td>
 
                             <td>
-                                {$secre['consulta']}
+                                {$secre['Consulta']}
                             </td>
 
                             <td>
-                                 {$secre['edad']}
+                                 {$secre['Edad']}
                             </td>
 
                             <td>
-                                 {$secre['fecha']}
+                                 {$secre['Fecha']}
                             </td>
-
-                            <td>
-                                  {$secre['hora']}
-                            </td>    
                         </tr>
                     {/foreach}
             {{/if}}        

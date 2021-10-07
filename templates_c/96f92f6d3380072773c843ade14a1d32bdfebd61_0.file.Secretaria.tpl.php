@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-28 23:49:23
+/* Smarty version 3.1.39, created on 2021-09-29 23:20:08
   from 'C:\xampp\htdocs\Sistema_Hospital\templates\Secretaria.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_61538de300b151_80514449',
+  'unifunc' => 'content_6154d8887fde55_90128543',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '96f92f6d3380072773c843ade14a1d32bdfebd61' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Sistema_Hospital\\templates\\Secretaria.tpl',
-      1 => 1632865761,
+      1 => 1632950395,
       2 => 'file',
     ),
   ),
@@ -30,7 +30,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:templates/Cabeceras/Footer.tpl' => 1,
   ),
 ),false)) {
-function content_61538de300b151_80514449 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6154d8887fde55_90128543 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("file:templates/Cabeceras/Header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 <div class="row">
@@ -78,6 +78,34 @@ $_smarty_tpl->_subTemplateRender("file:templates/Cabeceras/Header.tpl", $_smarty
     <?php }?>
     </div>
 </div>
+
+</div>
+
+<footer class="page-footer card  cyan accent-4  "><div class="card  cyan accent-4">
+    <div class="container  ">
+        <div class="row ">
+        <div class="col l6 s12">
+        <h5 class="white-text  "></h5>
+        <p class="grey-text text-lighten-4"></p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+        <h5 class="white-text"></h5>
+        <ul>
+            <li><a class="grey-text text-lighten-3" href="#!"></a></li>
+            <li><a class="grey-text text-lighten-3" href="#!"></a></li>
+            <li><a class="grey-text text-lighten-3" href="#!"></a></li>
+            <li><a class="grey-text text-lighten-3" href="#!"></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="footer-copyright">
+        <div class="container">
+        © 2021 Copyright Health Center
+        <a class="grey-text text-lighten-4 right" href="#!"></a>
+    </div>
+</footer>
+</div> 
 <?php $_smarty_tpl->_subTemplateRender("file:templates/Cabeceras/Footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?> <?php }
 }

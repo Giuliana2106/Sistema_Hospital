@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-24 07:49:09
+/* Smarty version 3.1.39, created on 2021-09-29 18:50:55
   from 'C:\xampp\htdocs\Sistema_Hospital\templates\Secretaria\RegistroCitas.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_614d66d5457f88_28758317',
+  'unifunc' => 'content_6154996f8d3e33_44913751',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0dbeba330687ca88943f0a6d5c543eef93bc9739' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Sistema_Hospital\\templates\\Secretaria\\RegistroCitas.tpl',
-      1 => 1632462489,
+      1 => 1632934247,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:templates/Cabeceras/Footer.tpl' => 1,
   ),
 ),false)) {
-function content_614d66d5457f88_28758317 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6154996f8d3e33_44913751 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("file:templates/Cabeceras/Header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 <div class="card-panel cyan accent-1">         
@@ -58,12 +58,7 @@ $_smarty_tpl->_subTemplateRender("file:templates/Cabeceras/Header.tpl", $_smarty
         <div class="input-field col s12">
         <input id="Fecha" type="date" class="validate" required="" name="Fecha"/>
         <label for="Fecha">Fecha de consulta</label>
-        </div>
-             
-        <div class="input-field col s12">
-        <input id="Hora" type="time" class="validate" required="" name="Hora"/>
-        <label for="Hora">Hora de la consulta</label>
-        </div>    
+        </div> 
 
             
         <div class="row">

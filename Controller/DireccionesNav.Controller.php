@@ -19,7 +19,7 @@
                 array_push($arr,$row);
             }
 
-            $this->smarty->assign('nav',"secretaria");
+            $this->smarty->assign('nav','secretaria');
             $this->smarty->assign('NombreRol',$arr);
             $this->smarty->assign('rol','registro');
             $this->smarty->assign('title','Secretaria');
@@ -36,14 +36,28 @@
 
         public function Vercitas()
         {
+            $ct=$this->secretaria->Vercitas();
+            $arr=array();
+            while($row=mysqli_fetch_assoc($ct))
+            {
+                array_push($arr,$row);
+            }
+            $this->smarty->assign('cita', $arr);
             $this->smarty->assign('nav','secretaria');
             $this->smarty->assign('rol','vercitas');
             $this->smarty->assign('title','Secretaria');
             $this->smarty->display('Secretaria.tpl');
         }
 
-        public function VerRegistro()
+        public function VerRegistros()
         {
+            $user=$this->secretaria->VerRegistros();
+            $arr=array();
+            while($row=mysqli_fetch_assoc($user))
+            {
+                array_push($arr,$row);
+            }
+            $this->smarty->assign('usuario', $arr);
             $this->smarty->assign('nav','secretaria');
             $this->smarty->assign('rol','verregistro');
             $this->smarty->assign('title','Secretaria');

@@ -10,7 +10,7 @@
 </div>      
     <div class="row">
         <div class="input-field col s12">
-            <h4 class="center-align white-text">Ver Consultas</h4>
+            <h4 class="center-align black-text">Ver Citas de Pediatría</h4>
         </div>
     </div>
 

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-24 07:46:39
+/* Smarty version 3.1.39, created on 2021-09-29 04:34:05
   from 'C:\xampp\htdocs\Sistema_Hospital\templates\Secretaria\CitasNutricio.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_614d663fedbf15_27626635',
+  'unifunc' => 'content_6153d09d668377_82157973',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5bb7e55a8af050a3a772dcb088cfd11f97dfe648' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Sistema_Hospital\\templates\\Secretaria\\CitasNutricio.tpl',
-      1 => 1632462398,
+      1 => 1632882228,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:templates/Cabeceras/footer.tpl' => 1,
   ),
 ),false)) {
-function content_614d663fedbf15_27626635 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6153d09d668377_82157973 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("file:templates/Cabeceras/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
@@ -36,7 +36,7 @@ $_smarty_tpl->_subTemplateRender("file:templates/Cabeceras/header.tpl", $_smarty
 </div>      
     <div class="row">
         <div class="input-field col s12">
-            <h4 class="center-align white-text">Ver Consultas</h4>
+            <h4 class="center-align black-text">Ver Citas de Nutricionista</h4>
         </div>
     </div>
 

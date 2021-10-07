@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-29 00:38:50
+/* Smarty version 3.1.39, created on 2021-09-29 20:37:41
   from 'C:\xampp\htdocs\Sistema_Hospital\templates\Secretaria\Registro.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6153997a1be834_74011486',
+  'unifunc' => 'content_6154b2753de102_04382376',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '50116d8c589976f0121ca5d5649a7e8baac51193' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Sistema_Hospital\\templates\\Secretaria\\Registro.tpl',
-      1 => 1632868726,
+      1 => 1632940528,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:templates/Cabeceras/Footer.tpl' => 1,
   ),
 ),false)) {
-function content_6153997a1be834_74011486 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6154b2753de102_04382376 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("file:templates/Cabeceras/Header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 <div class="card-panel cyan accent-1">         

@@ -32,12 +32,7 @@
         <div class="input-field col s12">
         <input id="Fecha" type="date" class="validate" required="" name="Fecha"/>
         <label for="Fecha">Fecha de consulta</label>
-        </div>
-             
-        <div class="input-field col s12">
-        <input id="Hora" type="time" class="validate" required="" name="Hora"/>
-        <label for="Hora">Hora de la consulta</label>
-        </div>    
+        </div> 
 
             
         <div class="row">
