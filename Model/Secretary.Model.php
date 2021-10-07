@@ -5,6 +5,7 @@
         public function __construct()
         {
             $this->con=new Conexion();
+            session_start();
         }
 
         public function VerRol()
@@ -55,6 +56,22 @@
            return $resultado;
         }
 
+        public function CitasCardio()
+        {
+           $query="SELECT * FROM `citas` WHERE `Consulta`='Cardiologo';";
+           $resultado=$this->con->query($query);
+           $this->con->close();
+           return $resultado;
+        }
+
+        public function CitasNutricio()
+        {
+           $query="SELECT * FROM `citas` WHERE `Consulta`='Nutricionista';";
+           $resultado=$this->con->query($query);
+           $this->con->close();
+           return $resultado;
+        }
+
         public function CitasPediatra()
         {
            $query="SELECT * FROM `citas` WHERE `Consulta`='Pediatra';";
@@ -62,6 +79,5 @@
            $this->con->close();
            return $resultado;
         }
-
     }
 ?>

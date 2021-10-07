@@ -51,21 +51,30 @@
 
         public function VerRegistros()
         {
-            $user=$this->secretaria->VerRegistros();
-            $arr=array();
-            while($row=mysqli_fetch_assoc($user))
+
+            $r=$this->secretaria->VerRegistros();
+            $array=array();
+            while($row=mysqli_fetch_assoc($r))
             {
-                array_push($arr,$row);
+                array_push($array, $row);
             }
-            $this->smarty->assign('usuario', $arr);
+            $this->smarty->assign('secretaria', $array);
             $this->smarty->assign('nav','secretaria');
             $this->smarty->assign('rol','verregistro');
             $this->smarty->assign('title','Secretaria');
             $this->smarty->display('Secretaria.tpl');
+            
         }
 
         public function CitasCardio()
         {
+            $c=$this->secretaria->CitasCardio();
+            $array=array();
+            while($row=mysqli_fetch_assoc($c))
+            {
+                array_push($array, $row);
+            }
+            $this->smarty->assign('secretaria', $array);
             $this->smarty->assign('nav','secretaria');
             $this->smarty->assign('rol','citascardio');
             $this->smarty->assign('title','Secretaria');
@@ -74,6 +83,14 @@
 
         public function CitasNutricio()
         {
+
+            $nu=$this->secretaria->CitasNutricio();
+            $array=array();
+            while($row=mysqli_fetch_assoc($nu))
+            {
+                array_push($array, $row);
+            }
+            $this->smarty->assign('secretaria', $array);
             $this->smarty->assign('nav','secretaria');
             $this->smarty->assign('rol','citasnutricionista');
             $this->smarty->assign('title','Secretaria');
@@ -82,6 +99,13 @@
 
         public function CitasPediatra()
         {
+            $pe=$this->secretaria->VerCita();
+            $array=array();
+            while($row=mysqli_fetch_assoc($pe))
+            {
+                array_push($array, $row);
+            }
+            $this->smarty->assign('secretaria', $array);
             $this->smarty->assign('nav','secretaria');
             $this->smarty->assign('rol','citaspediatra');
             $this->smarty->assign('title','Secretaria');

@@ -1,16 +1,7 @@
 {include file="templates/Cabeceras/header.tpl"}
-
-<div class="card-panel cyan accent-1">         
-
-<div class="row">
-    <div class="col s12 m6">
-    <div class="card blue-grey darken-1">
-    </div>
-    </div>
-</div>      
     <div class="row">
         <div class="input-field col s12">
-            <h4 class="center-align black-text">Ver Citas de Nutricionista</h4>
+            <h4 class="center-align black-text">Ver citas de nutricionista </h4>
         </div>
     </div>
 
@@ -22,6 +13,7 @@
                         <th>Usuario_idUsuario</th>
                         <th>Consulta</th>
                         <th>Edad</th>
+                        <th>DPI</th>
                         <th>Fecha de Consulta</th>
                         <th>Hora de la Consulta</th>
 
@@ -44,6 +36,10 @@
                             </td>
 
                             <td>
+                                 {$secre['DPI']}
+                            </td>
+
+                            <td>
                                  {$secre['fecha']}
                             </td>
 
@@ -57,6 +53,4 @@
             </table>
         </div>
     </div>
-    
-</div>
 {include file="templates/Cabeceras/footer.tpl"}
